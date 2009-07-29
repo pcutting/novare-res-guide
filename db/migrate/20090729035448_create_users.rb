@@ -16,6 +16,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :nick_name
       t.string :from
       t.date :uprising_since
+      t.boolean :admin
 
       t.timestamps
     end

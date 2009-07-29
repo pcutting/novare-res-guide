@@ -1,71 +1,61 @@
-<h1>New user</h1>
+<h1>Register</h1>
 
-<% form_for(@user) do |f| %>
+<p>Sign up here.  It's easy. It's free. It's fun.</p>
+
+
+<center>
+<table>
+<tr><td>
+
+<% form_for :user, :url => {:action => "create" } do |f| %>
   <%= f.error_messages %>
 
+
+<div class="center last">
+  <fieldset><legend>User name & Password</legend>
   <p>
     <%= f.label :login %><br />
     <%= f.text_field :login %>
-  </p>
-  <p>
+<br/>
     <%= f.label :email %><br />
     <%= f.text_field :email %>
+<br/>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+<br/>
+    <%= f.label :password_confirmation %><br />
+    <%= f.password_field :password_confirmation %>
   </p>
-  <p>
-    <%= f.label :crypted_password %><br />
-    <%= f.text_field :crypted_password %>
-  </p>
-  <p>
-    <%= f.label :password_salt %><br />
-    <%= f.text_field :password_salt %>
-  </p>
-  <p>
-    <%= f.label :persistence_token %><br />
-    <%= f.text_field :persistence_token %>
-  </p>
-  <p>
-    <%= f.label :login_count %><br />
-    <%= f.text_field :login_count %>
-  </p>
-  <p>
-    <%= f.label :failed_login_count %><br />
-    <%= f.text_field :failed_login_count %>
-  </p>
-  <p>
-    <%= f.label :current_login_at %><br />
-    <%= f.datetime_select :current_login_at %>
-  </p>
-  <p>
-    <%= f.label :last_request_at %><br />
-    <%= f.datetime_select :last_request_at %>
-  </p>
-  <p>
-    <%= f.label :last_login_at %><br />
-    <%= f.datetime_select :last_login_at %>
-  </p>
-  <p>
-    <%= f.label :current_login_ip %><br />
-    <%= f.text_field :current_login_ip %>
-  </p>
-  <p>
-    <%= f.label :last_login_ip %><br />
-    <%= f.text_field :last_login_ip %>
-  </p>
-  <p>
-    <%= f.label :nick_name %><br />
-    <%= f.text_field :nick_name %>
-  </p>
-  <p>
-    <%= f.label :from %><br />
-    <%= f.text_field :from %>
-  </p>
-  <p>
-    <%= f.label :uprising_since %><br />
-    <%= f.date_select :uprising_since %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
+   </fieldset>
+   
+</div>
+
+<div  class=" center last" >
+<fieldset><legend>Optional</legend>
+
+    <%= f.label "Nick Name" %><br/>
+    <%= f.text_field :nick_name  , :size => 8 %>
+<br/>
+
+    <%= f.label "From" %><br/>
+    <%= f.text_field :from  , :size => 8 %>
+<br/>
+
+    <%= f.label "When Did you join the Uprising" %><br/>
+    <%= f.date_select :uprising_since%>
+
+<br/>
+</fieldset>
+</div>
+
+<div class="center last" >
+  
+    <%= f.submit 'Join Us' %>
+  
+  
+</div>
+</td>
+</tr>
+</table>
 <% end %>
 
-<%= link_to 'Back', users_path %>

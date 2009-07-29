@@ -1,0 +1,1493 @@
+/!\ FAILSAFE /!\  Wed Jul 29 00:00:07 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jul 29 00:09:40 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (11.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (4.3ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090729035448)
+  [4;35;1mSQL (2.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `login_count` int(11), `failed_login_count` int(11), `current_login_at` datetime, `last_request_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `nick_name` varchar(255), `from` varchar(255), `uprising_since` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035448')[0m
+Migrating to CreateBeers (20090729035548)
+  [4;35;1mSQL (15.4ms)[0m   [0mCREATE TABLE `beers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `category` varchar(255), `type` varchar(255), `percent` decimal, `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035548')[0m
+Migrating to CreateDrafts (20090729035608)
+  [4;35;1mSQL (6.1ms)[0m   [0mCREATE TABLE `drafts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035608')[0m
+Migrating to CreateCasts (20090729035624)
+  [4;35;1mSQL (6.6ms)[0m   [0mCREATE TABLE `casts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035624')[0m
+Migrating to CreateRatings (20090729035646)
+  [4;35;1mSQL (9.9ms)[0m   [0mCREATE TABLE `ratings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `over_all` int(11), `appearance` int(11), `aroma` int(11), `mouthfeel` int(11), `flavor` int(11), `comment` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035646')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `beers`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `beers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `beers`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW FIELDS FROM `casts`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mdescribe `casts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `casts`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `drafts`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `drafts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `drafts`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `ratings`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `ratings`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `ratings`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+/!\ FAILSAFE /!\  Wed Jul 29 00:10:06 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jul 29 00:11:10 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jul 29 00:11:45 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jul 29 00:13:15 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Wed Jul 29 00:15:43 -0400 2009
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+    /usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2009-07-29 00:17:10) [GET]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+Completed in 71ms (View: 15, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:14:42) [GET]
+
+NameError (uninitialized constant Authlogic):
+  app/models/user_session.rb:1
+  app/controllers/user_sessions_controller.rb:4:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:15:43) [GET]
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UserSessionsController::Testimony):
+  app/controllers/user_sessions_controller.rb:5:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (32.8ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:15:46) [GET]
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'novare_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UserSessionsController::Testimony):
+  app/controllers/user_sessions_controller.rb:5:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (91.6ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:15:51) [GET]
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (165.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2009-07-29 01:15:55) [GET]
+Rendering template within layouts/application
+Rendering users/index
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/users]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:16:14) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (155.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:21:10) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (121.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:21:12) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (201.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:29:48) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (120.1ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (5.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (3.7ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090729035448)
+  [4;35;1mSQL (23.5ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `login_count` int(11), `failed_login_count` int(11), `current_login_at` datetime, `last_request_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `nick_name` varchar(255), `from` varchar(255), `uprising_since` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035448')[0m
+Migrating to CreateBeers (20090729035548)
+  [4;35;1mSQL (18.0ms)[0m   [0mCREATE TABLE `beers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `category` varchar(255), `type` varchar(255), `percent` decimal, `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035548')[0m
+Migrating to CreateDrafts (20090729035608)
+  [4;35;1mSQL (2.4ms)[0m   [0mCREATE TABLE `drafts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035608')[0m
+Migrating to CreateCasts (20090729035624)
+  [4;35;1mSQL (13.1ms)[0m   [0mCREATE TABLE `casts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035624')[0m
+Migrating to CreateRatings (20090729035646)
+  [4;35;1mSQL (18.0ms)[0m   [0mCREATE TABLE `ratings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `over_all` int(11), `appearance` int(11), `aroma` int(11), `mouthfeel` int(11), `flavor` int(11), `comment` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035646')[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `beers`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `beers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `beers`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `casts`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `casts`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW KEYS FROM `casts`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `drafts`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `drafts`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW KEYS FROM `drafts`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `ratings`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `ratings`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `ratings`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:30:24) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (45.4ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-07-29 01:30:25) [GET]
+  Parameters: {"id"=>"user_session"}
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.login) on line #3 of app/views/users/show.html.erb:
+1: <p>
+2:   <b>Login:</b>
+3:   <%=h @user.login %>
+4: </p>
+5: 
+6: <p>
+
+    app/views/users/show.html.erb:3
+    app/controllers/users_controller.rb:14:in `show'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (44.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:30:29) [GET]
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UserSessionsController::Testimony):
+  app/controllers/user_sessions_controller.rb:5:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:30:52) [GET]
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_login (6.0ms)
+Rendered user_sessions/_mission (1.6ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.layout) on line #12 of app/views/user_sessions/new.html.erb:
+9: <tr>
+10: <th colspan = 2>
+11: <h2>Herbalife Successes</h2>
+12: <%= unless @testimony.layout != "bottom" then render :partial=>"testimony_bottom" else render :partial=>"testimony_right" end %>
+13: </th>
+14: </tr>
+15: </table>
+
+    app/views/user_sessions/new.html.erb:12
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (169.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:34:33) [GET]
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_login (3.8ms)
+Rendered user_sessions/_mission (1.3ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.layout) on line #12 of app/views/user_sessions/new.html.erb:
+9: <tr>
+10: <th colspan = 2>
+11: <h2>Herbalife Successes</h2>
+12: <%= unless @testimony.layout != "bottom" then render :partial=>"testimony_bottom" else render :partial=>"testimony_right" end %>
+13: </th>
+14: </tr>
+15: </table>
+
+    app/views/user_sessions/new.html.erb:12
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:34:36) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_login (4.0ms)
+Rendered user_sessions/_mission (0.2ms)
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.layout) on line #12 of app/views/user_sessions/new.html.erb:
+9: <tr>
+10: <th colspan = 2>
+11: <h2>Herbalife Successes</h2>
+12: <%= unless @testimony.layout != "bottom" then render :partial=>"testimony_bottom" else render :partial=>"testimony_right" end %>
+13: </th>
+14: </tr>
+15: </table>
+
+    app/views/user_sessions/new.html.erb:12
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (110.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-29 01:34:47) [GET]
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered user_sessions/_login (1.4ms)
+Rendered user_sessions/_mission (0.1ms)
+Completed in 58ms (View: 6, DB: 3) | 200 OK [http://localhost/login]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:35:40) [GET]
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UsersController::Profile):
+  app/controllers/users_controller.rb:24:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (144.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:36:25) [GET]
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UsersController::Profile):
+  app/controllers/users_controller.rb:24:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (90.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:36:28) [GET]
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+
+NameError (uninitialized constant UsersController::Profile):
+  app/controllers/users_controller.rb:24:in `new'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (71.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:36:35) [GET]
+  [4;36;1mUser Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 381ms (View: 336, DB: 3) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:42:25) [GET]
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+ERROR: compiling _run_erb_app47views47users47new46html46erb RAISED compile error
+/home/phil/Desktop/novare/app/views/users/new.html.erb:69: syntax error, unexpected kENSURE, expecting kEND
+/home/phil/Desktop/novare/app/views/users/new.html.erb:71: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47users47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Register</h1>\n\n<p>Sign up here.  It's easy. It's free. It's fun.</p>\n\n\n<center>\n<table>\n<tr><td>\n\n"
+
+
+
+
+
+
+
+
+;  form_for :user, :url => {:action => "create" } do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n\n\n<div class=\"center last\">\n  <fieldset><legend>User name & Password</legend>\n  <p>\n    "
+
+
+
+
+
+; @output_buffer.concat(( f.label :login ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :login ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :email ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :email ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :password ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.password_field :password ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :password_confirmation ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.password_field :password_confirmation ).to_s); @output_buffer.concat "\n  </p>\n   </fieldset>\n   \n</div>\n   \n     "
+
+
+
+
+
+;  fields_for :profile do |w| ; @output_buffer.concat "\n   \n\n<div  class=\" center last\" >\n<fieldset><legend>Optional</legend>\n<table >\n  <tr><th>\n    "
+
+
+
+
+
+
+; @output_buffer.concat(( w.label "Nick Name" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.text_field :nick_name  , :size => 8 ).to_s); @output_buffer.concat "\n  </th></tr>\n  <tr><th>\n    "
+
+
+; @output_buffer.concat(( w.label "From" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.text_field :from  , :size => 8 ).to_s); @output_buffer.concat "\n\n  </th></tr>\n  <tr><th>\n    "
+
+
+
+; @output_buffer.concat(( w.label "When Did you join the Uprising" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.date_select :uprising_since).to_s); @output_buffer.concat "\n\n  </th></tr>\n</table>\n\n\n  \n<div class=\"center last\" >\n  \n    "
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( f.submit 'Create' ).to_s); @output_buffer.concat "\n  \n  \n</div>\n</td>\n</tr>\n</table>\n"
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/phil/Desktop/novare/app/views/users/new.html.erb:71:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:943:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/phil/Desktop/novare/app/controllers/users_controller.rb:25:in `new'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/phil/Desktop/novare/app/views/users/new.html.erb:69: syntax error, unexpected kENSURE, expecting kEND
+/home/phil/Desktop/novare/app/views/users/new.html.erb:71: syntax error, unexpected $end, expecting kEND) on line #69 of app/views/users/new.html.erb:
+66: <% end %>
+
+    app/views/users/new.html.erb:71:in `compile!'
+    app/controllers/users_controller.rb:25:in `new'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:42:55) [GET]
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+ERROR: compiling _run_erb_app47views47users47new46html46erb RAISED compile error
+/home/phil/Desktop/novare/app/views/users/new.html.erb:69: syntax error, unexpected kENSURE, expecting kEND
+/home/phil/Desktop/novare/app/views/users/new.html.erb:71: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47users47new46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Register</h1>\n\n<p>Sign up here.  It's easy. It's free. It's fun.</p>\n\n\n<center>\n<table>\n<tr><td>\n\n"
+
+
+
+
+
+
+
+
+;  form_for :user, :url => {:action => "create" } do |f| ; @output_buffer.concat "\n  "
+; @output_buffer.concat(( f.error_messages ).to_s); @output_buffer.concat "\n\n\n<div class=\"center last\">\n  <fieldset><legend>User name & Password</legend>\n  <p>\n    "
+
+
+
+
+
+; @output_buffer.concat(( f.label :login ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :login ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :email ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.text_field :email ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :password ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.password_field :password ).to_s); @output_buffer.concat "\n<br/>\n    "
+
+; @output_buffer.concat(( f.label :password_confirmation ).to_s); @output_buffer.concat "<br />\n    "
+; @output_buffer.concat(( f.password_field :password_confirmation ).to_s); @output_buffer.concat "\n  </p>\n   </fieldset>\n   \n</div>\n   \n     "
+
+
+
+
+
+;  fields_for :profile do |w| ; @output_buffer.concat "\n   \n\n<div  class=\" center last\" >\n<fieldset><legend>Optional</legend>\n<table >\n  <tr><th>\n    "
+
+
+
+
+
+
+; @output_buffer.concat(( w.label "Nick Name" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.text_field :nick_name  , :size => 8 ).to_s); @output_buffer.concat "\n  </th></tr>\n  <tr><th>\n    "
+
+
+; @output_buffer.concat(( w.label "From" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.text_field :from  , :size => 8 ).to_s); @output_buffer.concat "\n\n  </th></tr>\n  <tr><th>\n    "
+
+
+
+; @output_buffer.concat(( w.label "When Did you join the Uprising" ).to_s); @output_buffer.concat "<br/>\n    "
+; @output_buffer.concat(( w.date_select :uprising_since).to_s); @output_buffer.concat "\n\n  </th></tr>\n</table>\n\n\n  \n<div class=\"center last\" >\n  \n    "
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( f.submit 'Create' ).to_s); @output_buffer.concat "\n  \n  \n</div>\n</td>\n</tr>\n</table>\n"
+
+
+
+
+
+
+;  end ; @output_buffer.concat "\n\n"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/phil/Desktop/novare/app/views/users/new.html.erb:71:in `compile!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:343:in `_render_with_layout'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:943:in `render_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:135:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:135:in `custom'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:179:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:179:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:173:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:173:in `respond'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/phil/Desktop/novare/app/controllers/users_controller.rb:25:in `new'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/methodoverride.rb:24:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/urlmap.rb:40:in `call'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:46:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/vendor/rack-1.0/rack/handler/webrick.rb:13:in `run'
+/usr/lib/ruby/gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/phil/Desktop/novare/app/views/users/new.html.erb:69: syntax error, unexpected kENSURE, expecting kEND
+/home/phil/Desktop/novare/app/views/users/new.html.erb:71: syntax error, unexpected $end, expecting kEND) on line #69 of app/views/users/new.html.erb:
+66: <% end %>
+
+    app/views/users/new.html.erb:71:in `compile!'
+    app/controllers/users_controller.rb:25:in `new'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (43.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:43:13) [GET]
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 221ms (View: 14, DB: 3) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:43:38) [GET]
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 74ms (View: 30, DB: 3) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:44:02) [GET]
+  [4;35;1mUser Columns (7.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 236ms (View: 16, DB: 8) | 200 OK [http://localhost/user/new]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 01:44:19) [GET]
+  [4;36;1mUser Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering users/new
+Completed in 77ms (View: 30, DB: 3) | 200 OK [http://localhost/user/new]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-07-29 14:38:42) [POST]
+  Parameters: {"commit"=>"Join Us", "authenticity_token"=>"7lkMe6z0ZCT/3LjTaEY9EIRu0vmWTmRHczfU6buWBU0=", "user"=>{"uprising_since(3i)"=>"29", "from"=>"Portland,ME", "password_confirmation"=>"test", "nick_name"=>"Philip", "uprising_since(1i)"=>"2009", "password"=>"test", "login"=>"test", "uprising_since(2i)"=>"6", "email"=>"test@test.com"}}
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Exists (0.6ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`email`) = BINARY 'test@test.com') LIMIT 1[0m
+  [4;36;1mUser Exists (2.0ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'test') LIMIT 1[0m
+  [4;35;1mUser Exists (0.5ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (`users`.`persistence_token` = BINARY '0f6b25b870ed3cea04354875d88e9c084551628204a1e89353cbae0aeda3e9a36d111876770d8dae8b52bfc46bc0f4ec923b2ad1279a31f5dda8909fc5677fce') LIMIT 1[0m
+  [4;36;1mUser Create (0.6ms)[0m   [0;1mINSERT INTO `users` (`last_request_at`, `created_at`, `crypted_password`, `from`, `updated_at`, `failed_login_count`, `current_login_ip`, `password_salt`, `current_login_at`, `persistence_token`, `login_count`, `nick_name`, `last_login_ip`, `uprising_since`, `login`, `last_login_at`, `email`) VALUES('2009-07-29 18:38:42', '2009-07-29 18:38:42', 'ece66b69720d2a84cda305c7928d2218700ddf2d155a34602bc49914e3ac8d66f27e28e9588a745cde49a9f796d4a585dab46049c2b93d2a42f430a305a3db42', 'Portland,ME', '2009-07-29 18:38:42', 0, '127.0.0.1', 'PLfLDriEA2iq6S5DnCMz', '2009-07-29 18:38:42', '0f6b25b870ed3cea04354875d88e9c084551628204a1e89353cbae0aeda3e9a36d111876770d8dae8b52bfc46bc0f4ec923b2ad1279a31f5dda8909fc5677fce', 1, 'Philip', NULL, '2009-06-29', 'test', NULL, 'test@test.com')[0m
+  [4;35;1mSQL (2.7ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/ratings
+Completed in 586ms (DB: 9) | 302 Found [http://localhost/user]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing RatingsController#index (for 127.0.0.1 at 2009-07-29 14:38:42) [GET]
+  [4;36;1mRating Load (0.5ms)[0m   [0;1mSELECT * FROM `ratings` [0m
+Rendering template within layouts/application
+Rendering ratings/index
+Completed in 34ms (View: 17, DB: 1) | 200 OK [http://localhost/ratings]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (3.8ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090729035448)
+  [4;35;1mSQL (26.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(255), `email` varchar(255), `crypted_password` varchar(255), `password_salt` varchar(255), `persistence_token` varchar(255), `login_count` int(11), `failed_login_count` int(11), `current_login_at` datetime, `last_request_at` datetime, `last_login_at` datetime, `current_login_ip` varchar(255), `last_login_ip` varchar(255), `nick_name` varchar(255), `from` varchar(255), `uprising_since` date, `admin` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035448')[0m
+Migrating to CreateBeers (20090729035548)
+  [4;35;1mSQL (28.6ms)[0m   [0mCREATE TABLE `beers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `category` varchar(255), `type` varchar(255), `percent` decimal, `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035548')[0m
+Migrating to CreateDrafts (20090729035608)
+  [4;35;1mSQL (3.3ms)[0m   [0mCREATE TABLE `drafts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035608')[0m
+Migrating to CreateCasts (20090729035624)
+  [4;35;1mSQL (11.3ms)[0m   [0mCREATE TABLE `casts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `available` tinyint(1), `tapped` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035624')[0m
+Migrating to CreateRatings (20090729035646)
+  [4;35;1mSQL (15.2ms)[0m   [0mCREATE TABLE `ratings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `beer_id` int(11), `size` decimal, `measurement` varchar(255), `cost` decimal, `over_all` int(11), `appearance` int(11), `aroma` int(11), `mouthfeel` int(11), `flavor` int(11), `comment` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090729035646')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `beers`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `beers`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `beers`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `casts`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `casts`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `casts`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `drafts`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `drafts`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `drafts`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `ratings`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `ratings`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `ratings`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mdescribe `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `users`[0m

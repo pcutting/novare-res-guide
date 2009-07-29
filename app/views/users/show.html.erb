@@ -58,21 +58,6 @@
   <%=h @user.last_login_ip %>
 </p>
 
-<p>
-  <b>Nick name:</b>
-  <%=h @user.nick_name %>
-</p>
-
-<p>
-  <b>From:</b>
-  <%=h @user.from %>
-</p>
-
-<p>
-  <b>Uprising since:</b>
-  <%=h @user.uprising_since %>
-</p>
-
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
