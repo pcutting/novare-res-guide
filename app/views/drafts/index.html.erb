@@ -1,0 +1,30 @@
+<h1>Listing drafts</h1>
+
+<table>
+  <tr>
+    <th>Beer</th>
+    <th>Size</th>
+    <th>Measurement</th>
+    <th>Cost</th>
+    <th>Available</th>
+    <th>Tapped</th>
+  </tr>
+
+<% @drafts.each do |draft| %>
+  <tr>
+    <td><%=h draft.beer %></td>
+    <td><%=h draft.size %></td>
+    <td><%=h draft.measurement %></td>
+    <td><%=h draft.cost %></td>
+    <td><%=h draft.available %></td>
+    <td><%=h draft.tapped %></td>
+    <td><%= link_to 'Show', draft %></td>
+    <td><%= link_to 'Edit', edit_draft_path(draft) %></td>
+    <td><%= link_to 'Destroy', draft, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New draft', new_draft_path %>

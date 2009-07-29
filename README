@@ -15,3 +15,31 @@ script/generate scaffold cast beer:references size:decimal measurement:string co
 script/generate scaffold rating user:references beer:references size:decimal measurement:string cost:decimal over_all:integer appearance:integer aroma:integer mouthfeel:integer flavor:integer comment:text
 
 
+
+Aroma
+The eyes have had their fun, now let the nose get in on the action. Take a nice sniff of the beer and note any flavors you pick up. Rich caramel notes? Chocolate or coffee? Citrus or woodsy aromas from the hops? Write them down. When you start out, everything will smell like beer, but after doing this for awhile, you’ll be amazed at how many different aromas you can pick up. Eventually, you’ll be able to pick out specific varieties of grain and hops! Note how the aroma makes you feel – are you chomping at the bit to take a sip, or did you just check the baby to see if a diaper needed to be changed?
+
+Mouthfeel
+Ah, the time has come. Take a nice big sip and start writing. First note the mouthfeel – is the beer highly carbonated, or more on the flat side? Is it thick and chewy, or thin and watery? Does it finish clean or with a residue on your palate?
+
+Flavor
+This is the big one. What does the beer taste like? The flavors will likely change between taking a sip, swallowing it, and experiencing the aftertaste. Take notes on all of this. Note the hop bitterness –is it overpowering? Nicely balanced with the malt? Is the malt flavor overly sweet? Do you get toasty, roasty, or biscuity flavors? Do you get any hints of fruit or spice? A good beer should be in balance – not overly sweet or bitter.
+
+Ongoing Notes
+Keep tasting and taking notes – that’s right, you get to drink the whole beer! As the beer warms up, the aroma and flavor will become more complex (never drink a beer “ice cold” - 40°F is a good temperature for most styles). Take another sniff, and add some notes to the aroma section. Take another sip, and see if any new flavors present themselves. Finish that sucker off, and let’s wrap this up.
+
+Overall Impressions
+This is where you tie it all together. Would you drink this beer again, and why? If not, what would stop you? Was it a specific flavor you didn’t like? Was it the mouthfeel? Did it contain a spice that overpowered the beer? Jot down anything you can think of about why you liked or disliked the beer.
+
+If you like, you can do what the pros do and assign a numerical rating to each section. Some people rate each category from one to five. The BJCP weights each category on importance – appearance counts for less than flavor, for example. Come up with a rating system that fits your style – then use it to pick out new beers to try. Eventually, you will have a nice little database of your likes and dislikes you can use to pin down what beers you’ll really enjoy.
+
+http://www.examiner.com/x-11003-Fairfield-County-Craft-Beer-Examiner~y2009m5d20-How-to-rate-a-beer
+
+ For more info: 
+
+    * Download an official BJCP scorecard and rate beer like the pros!
+    * A sample of a completed BJCP exam scorecard
+    * A review of Long Trail Double Bag Ale from my brewing blog, lootcorp.com
+
+ 
+

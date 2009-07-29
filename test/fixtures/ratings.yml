@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user: 
+  beer: 
+  size: 9.99
+  measurement: MyString
+  cost: 9.99
+  over_all: 1
+  appearance: 1
+  aroma: 1
+  mouthfeel: 1
+  flavor: 1
+  comment: MyText
+
+two:
+  user: 
+  beer: 
+  size: 9.99
+  measurement: MyString
+  cost: 9.99
+  over_all: 1
+  appearance: 1
+  aroma: 1
+  mouthfeel: 1
+  flavor: 1
+  comment: MyText

@@ -1,0 +1,56 @@
+<h1>Editing rating</h1>
+
+<% form_for(@rating) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :user %><br />
+    <%= f.text_field :user %>
+  </p>
+  <p>
+    <%= f.label :beer %><br />
+    <%= f.text_field :beer %>
+  </p>
+  <p>
+    <%= f.label :size %><br />
+    <%= f.text_field :size %>
+  </p>
+  <p>
+    <%= f.label :measurement %><br />
+    <%= f.text_field :measurement %>
+  </p>
+  <p>
+    <%= f.label :cost %><br />
+    <%= f.text_field :cost %>
+  </p>
+  <p>
+    <%= f.label :over_all %><br />
+    <%= f.text_field :over_all %>
+  </p>
+  <p>
+    <%= f.label :appearance %><br />
+    <%= f.text_field :appearance %>
+  </p>
+  <p>
+    <%= f.label :aroma %><br />
+    <%= f.text_field :aroma %>
+  </p>
+  <p>
+    <%= f.label :mouthfeel %><br />
+    <%= f.text_field :mouthfeel %>
+  </p>
+  <p>
+    <%= f.label :flavor %><br />
+    <%= f.text_field :flavor %>
+  </p>
+  <p>
+    <%= f.label :comment %><br />
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @rating %> |
+<%= link_to 'Back', ratings_path %>

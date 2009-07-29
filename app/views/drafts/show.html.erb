@@ -1,0 +1,33 @@
+<p>
+  <b>Beer:</b>
+  <%=h @draft.beer %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @draft.size %>
+</p>
+
+<p>
+  <b>Measurement:</b>
+  <%=h @draft.measurement %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @draft.cost %>
+</p>
+
+<p>
+  <b>Available:</b>
+  <%=h @draft.available %>
+</p>
+
+<p>
+  <b>Tapped:</b>
+  <%=h @draft.tapped %>
+</p>
+
+
+<%= link_to 'Edit', edit_draft_path(@draft) %> |
+<%= link_to 'Back', drafts_path %>

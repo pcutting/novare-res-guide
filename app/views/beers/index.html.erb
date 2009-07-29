@@ -1,0 +1,28 @@
+<h1>Listing beers</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Category</th>
+    <th>Type</th>
+    <th>Percent</th>
+    <th>Description</th>
+  </tr>
+
+<% @beers.each do |beer| %>
+  <tr>
+    <td><%=h beer.name %></td>
+    <td><%=h beer.category %></td>
+    <td><%=h beer.type %></td>
+    <td><%=h beer.percent %></td>
+    <td><%=h beer.description %></td>
+    <td><%= link_to 'Show', beer %></td>
+    <td><%= link_to 'Edit', edit_beer_path(beer) %></td>
+    <td><%= link_to 'Destroy', beer, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New beer', new_beer_path %>

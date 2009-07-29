@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  beer: 
+  size: 9.99
+  measurement: MyString
+  cost: 9.99
+  available: false
+  tapped: false
+
+two:
+  beer: 
+  size: 9.99
+  measurement: MyString
+  cost: 9.99
+  available: false
+  tapped: false

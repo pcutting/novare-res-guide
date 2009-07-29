@@ -1,0 +1,36 @@
+<h1>Editing cast</h1>
+
+<% form_for(@cast) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :beer %><br />
+    <%= f.text_field :beer %>
+  </p>
+  <p>
+    <%= f.label :size %><br />
+    <%= f.text_field :size %>
+  </p>
+  <p>
+    <%= f.label :measurement %><br />
+    <%= f.text_field :measurement %>
+  </p>
+  <p>
+    <%= f.label :cost %><br />
+    <%= f.text_field :cost %>
+  </p>
+  <p>
+    <%= f.label :available %><br />
+    <%= f.check_box :available %>
+  </p>
+  <p>
+    <%= f.label :tapped %><br />
+    <%= f.check_box :tapped %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @cast %> |
+<%= link_to 'Back', casts_path %>

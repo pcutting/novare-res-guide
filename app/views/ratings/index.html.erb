@@ -1,0 +1,40 @@
+<h1>Listing ratings</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Beer</th>
+    <th>Size</th>
+    <th>Measurement</th>
+    <th>Cost</th>
+    <th>Over all</th>
+    <th>Appearance</th>
+    <th>Aroma</th>
+    <th>Mouthfeel</th>
+    <th>Flavor</th>
+    <th>Comment</th>
+  </tr>
+
+<% @ratings.each do |rating| %>
+  <tr>
+    <td><%=h rating.user %></td>
+    <td><%=h rating.beer %></td>
+    <td><%=h rating.size %></td>
+    <td><%=h rating.measurement %></td>
+    <td><%=h rating.cost %></td>
+    <td><%=h rating.over_all %></td>
+    <td><%=h rating.appearance %></td>
+    <td><%=h rating.aroma %></td>
+    <td><%=h rating.mouthfeel %></td>
+    <td><%=h rating.flavor %></td>
+    <td><%=h rating.comment %></td>
+    <td><%= link_to 'Show', rating %></td>
+    <td><%= link_to 'Edit', edit_rating_path(rating) %></td>
+    <td><%= link_to 'Destroy', rating, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New rating', new_rating_path %>

@@ -1,0 +1,58 @@
+<p>
+  <b>User:</b>
+  <%=h @rating.user %>
+</p>
+
+<p>
+  <b>Beer:</b>
+  <%=h @rating.beer %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @rating.size %>
+</p>
+
+<p>
+  <b>Measurement:</b>
+  <%=h @rating.measurement %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @rating.cost %>
+</p>
+
+<p>
+  <b>Over all:</b>
+  <%=h @rating.over_all %>
+</p>
+
+<p>
+  <b>Appearance:</b>
+  <%=h @rating.appearance %>
+</p>
+
+<p>
+  <b>Aroma:</b>
+  <%=h @rating.aroma %>
+</p>
+
+<p>
+  <b>Mouthfeel:</b>
+  <%=h @rating.mouthfeel %>
+</p>
+
+<p>
+  <b>Flavor:</b>
+  <%=h @rating.flavor %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @rating.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_rating_path(@rating) %> |
+<%= link_to 'Back', ratings_path %>

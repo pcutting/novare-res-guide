@@ -1,0 +1,28 @@
+<p>
+  <b>Name:</b>
+  <%=h @beer.name %>
+</p>
+
+<p>
+  <b>Category:</b>
+  <%=h @beer.category %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @beer.type %>
+</p>
+
+<p>
+  <b>Percent:</b>
+  <%=h @beer.percent %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @beer.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_beer_path(@beer) %> |
+<%= link_to 'Back', beers_path %>

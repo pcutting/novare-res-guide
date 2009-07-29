@@ -1,0 +1,33 @@
+<p>
+  <b>Beer:</b>
+  <%=h @cast.beer %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%=h @cast.size %>
+</p>
+
+<p>
+  <b>Measurement:</b>
+  <%=h @cast.measurement %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @cast.cost %>
+</p>
+
+<p>
+  <b>Available:</b>
+  <%=h @cast.available %>
+</p>
+
+<p>
+  <b>Tapped:</b>
+  <%=h @cast.tapped %>
+</p>
+
+
+<%= link_to 'Edit', edit_cast_path(@cast) %> |
+<%= link_to 'Back', casts_path %>
