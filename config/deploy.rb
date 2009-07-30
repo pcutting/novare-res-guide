@@ -1,5 +1,5 @@
-set :ip_address, "68.233.8.61"
-set :user, "root"
+set :ip, "68.233.8.61"
+set :user, "novareres"
 #set :scm_user, "novareres"
 set :password, "sprint"
 set :server, "freemyrealestate.com"
@@ -20,9 +20,9 @@ set :deploy_via, :copy
 set :use_sudo, false
 set :group_writable, false
 
-role :app, ip_address
-role :web, ip_address
-role :db, ip_address, :primary => true
+role :app, ip
+role :web, ip
+role :db, ip, :primary => true
 
 
 set :use_sudo, false
